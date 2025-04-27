@@ -11,6 +11,8 @@
         
         &__welcome{
             padding-top: 147px;
+            margin-left: 40px;
+            margin-right: 40px;
         }
 
         &__welcome-text{
@@ -22,12 +24,17 @@
             font-size: 16px;
             line-height:100%;
             text-align: center;
+
+            &_text{
+                font-size: 16px;
+                line-height:100%;
+            }
         }
 
         &__btn{
             font-size: 16px;
-            margin-left: 46px;
-            margin-right: 46px;
+            width: 100%;
+            text-align: center;
         }
     }
 

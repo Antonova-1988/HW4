@@ -16,7 +16,7 @@ body {
 }
 
 .top {
-  height: 710px;
+  padding-bottom: 156px;
   background-color: rgb(225, 255, 143);
   background-image: url(./images/big_star.png), url(./images/Star2.png), url(./images/Star3.png), url(./images/Star5.png), url(./images/Star4.png);
   background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
@@ -39,8 +39,14 @@ body {
   line-height: 32px;
   padding-bottom: 48px;
 }
+.top__go_text {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+}
 .top__btn {
-  width: 285px;
+  display: block;
+  max-width: 285px;
   border: 1px solid rgb(32, 32, 39);
   border-radius: 60px;
   background-color: rgb(32, 32, 39);
@@ -265,6 +271,8 @@ body {
   }
   .top__welcome {
     padding-top: 147px;
+    margin-left: 40px;
+    margin-right: 40px;
   }
   .top__welcome-text {
     font-size: 40px;
@@ -275,10 +283,14 @@ body {
     line-height: 100%;
     text-align: center;
   }
+  .top__go_text {
+    font-size: 16px;
+    line-height: 100%;
+  }
   .top__btn {
     font-size: 16px;
-    margin-left: 46px;
-    margin-right: 46px;
+    width: 100%;
+    text-align: center;
   }
   .about {
     display: none;
